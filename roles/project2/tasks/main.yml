@@ -1,0 +1,5 @@
+- name: ---- project1 ----
+  debug:
+    msg: "Hello from project 2"
+  tags: test2
+
