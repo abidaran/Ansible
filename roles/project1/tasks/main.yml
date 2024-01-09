@@ -8,4 +8,4 @@
 - name: ---- main.yml ----
   debug:
     msg: "Hello from main.yml"
-  tags: 
+  tags: test 1 

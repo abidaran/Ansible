@@ -1,5 +1,8 @@
-- name: ---- project1 ----
-  debug:
-    msg: "Hello from project 2"
-  tags: test2
+- include_tasks: inner.yml
+  loop:
+    - 1
+    - 2
+    - 3
+  loop_control:
+    loop_var: outer_item
 
